@@ -1,4 +1,4 @@
-#Gourmet Gamble
+# Gourmet Gamble
 
 Description:
 Gourmet Gamble is a web application that adds an element of surprise to your daily meals. Whether you're tired of the same old recipes or looking for culinary inspiration, Gourmet Gamble introduces randomness into your dining experience. Spin the virtual wheel to discover a daily culinary surprise, powered by TheMealDB's global pantry. From spicy Thai curries to comforting Italian pastas, let fate be your chef.
