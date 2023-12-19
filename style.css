@@ -11,7 +11,6 @@ body {
   background-image: linear-gradient(to top, #b82e1f, #f2c17d);
   margin: 0;
   padding: 0;
-  overflow: hidden;
 }
 
 #header h1 {
@@ -27,7 +26,7 @@ body {
   font-size: 1.5em;
   margin-left: 30px;
   margin-right: 30px;
-  margin-top: 30px;
+  margin-top: -30px;
   text-align: justify;
   color: white;
 }
@@ -240,6 +239,7 @@ strong {
   background-image: url(./bg-image.jpg);
   background-repeat: no-repeat;
   background-size: 105%;
+  overflow: hidden;
 }
 
 div .align {
