@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gourmet Gamble</title>
+    <link rel="icon" href="" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div id="header">
+        <div class="align">
+          <h1>Gourmet Gamble</h1>
+          <input type="text" id="searchBar" placeholder="Search" />
+        </div>
+        <p>
+          Tired of dinner déjà vu? Gourmet Gamble throws "what's for dinner?"
+          out the window! Spin our virtual wheel, powered by TheMealDB's global
+          pantry, and land on a daily culinary surprise. From fiery Thai curries
+          to comforting Italian pastas, let fate be your chef. Each recipe
+          delivers tips, tutorials, and even mood-setting playlists to set the
+          scene for your delicious escape. Craving something specific? The
+          search bar puts you in control, letting you explore TheMealDB's vast
+          library of flavors. Share your feasts, connect with the community, and
+          rediscover the thrill of tastebud exploration. Gourmet Gamble: Where
+          randomness and deliciousness collide, one surprise recipe at a time.
+        </p>
+      </div>
+      <div id="randomGen">
+        <h2>Your Food Idea for the Day</h2>
+        <div id="gen" class="random-gen-item">
+          <!-- Generated Content goes here -->
+          <div id="randomGen-item">
+            <!-- Random image pertaining to the recipe goes here -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="search">
+      <!-- Search Results Heading -->
+      <h2 id="searchHeading" style="display: none">Search Results</h2>
+      <!-- Search Results Container -->
+      <div id="searchResult" class="searchResult-container"></div>
+    </div>
+
+    <!-- Add a div for the recipe popup -->
+    <div id="recipePopup" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closePopup()">&times;</span>
+        <h2 id="popupTitle"></h2>
+        <div id="popupContent"></div>
+      </div>
+    </div>
+    <!-- Container for randomly generated recipe -->
+    <div id="randomRecipeContainer" class="searchResult-container"></div>
+    <!-- Container for search results -->
+    <div id="searchResultContainer" class="searchResult-container"></div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
