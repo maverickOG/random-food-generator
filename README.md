@@ -20,9 +20,9 @@ Engage with the community, share your culinary adventures, and rediscover the jo
 <b><u>Technologies Used</b></u>
 <br />
 <ul>
-  HTML5
-  CSS3 (Styling with Google Fonts)
-  JavaScript (Fetching data from TheMealDB API and handling user interactions)
+  <li>HTML5</li>
+  <li>CSS3 (Styling with Google Fonts)</li>
+  <li>JavaScript (Fetching data from TheMealDB API and handling user interactions)</li>
 </ul>
 
 <b><u>Contributing</b></u>
